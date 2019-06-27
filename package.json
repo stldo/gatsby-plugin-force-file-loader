@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-plugin-force-file-loader",
+  "description": "Use file-loader instead of url-loader for fonts, images and media rules",
+  "version": "0.1.0",
+  "author": "stldo (https://github.com/stldo)",
+  "license": "MIT",
+  "repository": "https://github.com/stldo/gatsby-plugin-force-file-loader",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "file-loader",
+    "url-loader",
+    "fonts",
+    "images",
+    "media",
+    "webpack"
+  ],
+  "peerDependencies": {
+    "gatsby": "2.x"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  }
+}
