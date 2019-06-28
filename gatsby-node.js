@@ -8,7 +8,7 @@ exports.onCreateWebpackConfig = (
 
   const rulesTests = pluginRules.map(rule => {
     if (!PLUGIN_RULES.includes(rule)) {
-      throw new Error(`Invalid rule '${String(rule)}'`)
+      throw new Error(`Invalid rule: '${String(rule)}'`)
     }
     return String(rules[rule]().test)
   })
