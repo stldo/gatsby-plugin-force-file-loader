@@ -1,6 +1,6 @@
 # gatsby-plugin-force-file-loader
 
-Force Webpack to use `file-loader` instead of `url-loader` for fonts, images and media rules. The motivation behind this plugin is because when using `typeface-*` modules to embed fonts in an app, some font styles are embedded in CSS as base64 strings even if they are not being used.
+Force Webpack to use `file-loader` instead of `url-loader` in fonts, images and media rules. The motivation behind this plugin is because when using `typeface-*` modules to embed fonts in an app, some font styles are embedded in CSS as base64 strings even if they are not being used.
 
 ## Install
 
