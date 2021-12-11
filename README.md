@@ -18,7 +18,7 @@ the rules that you need, keeping the default Gatsby behavior whenever possible.
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-force-file-loader`
+      resolve: 'gatsby-plugin-force-file-loader'
       // options: {
       //   rules: [
       //     'fonts', /* Matches Gatsby default rules for fonts */
@@ -40,4 +40,6 @@ the three types are enabled, but it's recommended to set just the needed rules.
 
 ## License
 
-[The MIT License](./LICENSE)
+[The MIT License][license]
+
+[license]: ./LICENSE
