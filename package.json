@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-force-file-loader",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Use file-loader instead of url-loader in fonts, images and media rules",
   "repository": "https://github.com/stldo/gatsby-plugin-force-file-loader",
   "keywords": [
