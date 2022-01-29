@@ -1,9 +1,7 @@
 {
   "name": "gatsby-plugin-force-file-loader",
-  "description": "Use file-loader instead of url-loader in fonts, images and media rules",
   "version": "4.0.0",
-  "author": "stldo (https://github.com/stldo)",
-  "license": "MIT",
+  "description": "Use file-loader instead of url-loader in fonts, images and media rules",
   "repository": "https://github.com/stldo/gatsby-plugin-force-file-loader",
   "keywords": [
     "gatsby",
@@ -28,5 +26,7 @@
   },
   "peerDependencies": {
     "gatsby": "^4.0.0"
-  }
+  },
+  "author": "stldo (https://github.com/stldo)",
+  "license": "MIT"
 }
