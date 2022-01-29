@@ -1,18 +1,19 @@
-# gatsby-plugin-force-file-loader
+# gatsby-plugin-force-file-loader [![npm][1]][2]
 
 Force Webpack to use `file-loader` instead of `url-loader` in fonts, images and
 media rules.
 
-## Install
+## Installation
 
 ```bash
-$ npm install gatsby-plugin-force-file-loader
+npm install gatsby-plugin-force-file-loader
 ```
 
-## Configure
+## Usage
 
-Although all rules are enabled by default, it's recommended that you set only
-the rules that you need, keeping the default Gatsby behavior whenever possible.
+> Note: although all rules are enabled by default, it's recommended that you set
+> only the rules that you need, keeping the default Gatsby behavior whenever
+> possible.
 
 ```javascript
 module.exports = {
@@ -31,9 +32,11 @@ module.exports = {
 }
 ```
 
+## Options
+
 ### rules
 
-Default: `['fonts', 'images', 'media']`. Type: `Array`.
+Type: `Array`. Default: `['fonts', 'images', 'media']`.
 
 The rules that should use `file-loader` instead of `url-loader`. By default, all
 the three types are enabled, but it's recommended to set just the needed rules.
@@ -42,4 +45,6 @@ the three types are enabled, but it's recommended to set just the needed rules.
 
 [The MIT License][license]
 
+[1]: https://img.shields.io/npm/v/gatsby-plugin-force-file-loader
+[2]: https://www.npmjs.com/package/gatsby-plugin-force-file-loader
 [license]: ./LICENSE
